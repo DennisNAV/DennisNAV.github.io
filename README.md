@@ -1,7 +1,4 @@
-# DennisNAV.github.io
- VCE Informatics MMOS
+VCE Informatics MMOS
 
-### Purpose
-## Purpose
 # Purpose
-Info
+A software solution to present the information created as a part of a study on blue light exposure against sleep.
