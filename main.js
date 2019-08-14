@@ -24,6 +24,23 @@ $(function() {
     var accordion = new Accordion($('#accordion'), false);
 });
 
+
+$(function startHome(){
+  $('#content').load('home.html');
+});
+
+$(document).ready(function(){
+  $("#home").click(function(){
+    $("#content").load("home.html");
+  });
+});
+
+$(document).ready(function(){
+  $("#home").click(function(){
+    $("#content").load("home.html");
+  });
+});
+
 $(document).ready(function(){
     $("#planning").click(function(){
       $("#content").load("planning.html");
