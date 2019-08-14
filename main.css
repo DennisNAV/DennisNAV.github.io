@@ -179,3 +179,18 @@
     margin-top: -3em;
     background-color:grey;
   }
+
+  #main-heading {
+    font-family: 'Baloo', cursive;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    /* text-shadow: -1px 0px 15px rgba(150, 150, 150, 1); */
+    font-size: 1.2em;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  /* #main-text {
+
+  } */
