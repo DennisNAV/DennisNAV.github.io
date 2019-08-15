@@ -42,10 +42,10 @@ html {
     border-top: 1px solid white;
 } 
 */
-.item:nth-of-type(4)
+/* .item:nth-of-type(4)
 {
     border-left: 1px solid white; border-top: 1px solid white;
-} 
+}  */
    
   body {
     background: #CB356B;  /* fallback for old browsers */
@@ -203,7 +203,7 @@ html {
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -150%);
+    transform: translate(-50%, -220%);
   }
 
   #main-text {
@@ -213,7 +213,7 @@ html {
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -160%);
+    transform: translate(-50%, -480%);
   }
 
   
@@ -270,7 +270,7 @@ html {
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -10%);
+  transform: translate(-50%, -200%);
 
   border-radius: 10px;
   -o-transition: all .4s ease-in-out;
@@ -289,19 +289,19 @@ html {
   outline: none;
 }
 
-.btn-hover.color-1 {
+/* .btn-hover.color-1 {
   background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
   box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
 .btn-hover.color-2 {
   background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
   box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
-}
+} */
 .btn-hover.color-3 {
   background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
   box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
 }
-.btn-hover.color-4 {
+/* .btn-hover.color-4 {
   background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
   box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
 }
@@ -331,4 +331,4 @@ html {
 }
 .btn-hover.color-11 {
      background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);  box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
-}
+} */
