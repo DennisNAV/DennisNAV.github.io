@@ -9,6 +9,13 @@
     scroll-behavior: smooth;
 }
 
+*::selection {
+  background: rgb(31, 233, 4); /* WebKit/Blink Browsers */
+}
+*::-moz-selection {
+  background: rgb(31, 233, 4); /* Gecko Browsers */
+}
+
 html {
   width:100vw;
   overflow-x:hidden;
