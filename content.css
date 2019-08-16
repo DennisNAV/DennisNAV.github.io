@@ -13,7 +13,7 @@ img.image {
     font-family: 'Josefin Sans', sans-serif;
     text-transform: capitalize;
     color: rgb(255, 255, 255);
-    text-shadow: 0px 0px 10px rgba(150, 150, 150, 1);
+    text-shadow: 0px 0px 5px rgba(150, 150, 150, 1);
     font-size: 1.7em;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -68,4 +68,5 @@ tr:nth-child(odd) {background-color: #f2f2f210;}
     width: 90%;
     padding-top: 2%;
     padding-bottom: 2%;
+    text-align: center;
 }
