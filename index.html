@@ -22,10 +22,120 @@
 </head>
 
 <body>
+    
+  
+    <nav role="navigation" class="navigation" id="navigation">
+        <div id="menuToggle">
+          <!--
+          A fake / hidden checkbox is used as click reciever,
+          so you can use the :checked selector on it.
+          -->
+          <input type="checkbox" id="close"/>
+          
+          <!--
+          Some spans to act as a hamburger.
+          
+          They are acting like a real hamburger,
+          not that McDonalds stuff.
+          -->
+          <span></span>
+          <span></span>
+          <span></span>
+          
+          <!--
+          Too bad the menu has to be inside of the button
+          but hey, it's pure CSS magic.
+          -->
+          <ul id="menu">
+              <ul id="mobile-accordion" class="mobile-accordion">
+                  <!-- Menu home button -->
+                  <li>
+                      <div class="link" id="home1" style="color: #4D4D4D;" onclick="topFunction()" id="myBtn"><i id="homeBtn" class="material-icons">home</i>Home</div>
+                  </li>
+                  <!-- All menu items -->
+                  <li>
+                    <div class="link" id="planning1" onclick="topFunction()" id="myBtn"><i class="material-icons">calendar_today</i>Planning<i class="fa fa-chevron-down"></i></div>
+                    <ul class="submenu">
+                      <li><a href="#initial" onclick="closeMenu()">Initial Gantt Chart</a></li>
+                      <li><a href="#revised" onclick="closeMenu()">Revised Gantt Chart</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <div class="link" id="overview1" onclick="topFunction()" id="myBtn"><i class="material-icons">dashboard</i>Overview<i class="fa fa-chevron-down"></i></div>
+                    <ul class="submenu">
+                      <li><a href="#background" onclick="closeMenu()">Background</a></li>
+                      <li><a href="#discussion" onclick="closeMenu()">Discussion</a></li>
+                      <li><a href="#question" onclick="closeMenu()">Research Question</a></li>
+                      <li><a href="#hypothesis" onclick="closeMenu()">Hypothesis</a></li>
+                      <li><a href="#scope" onclick="closeMenu()">Scope</a></li>
+                      <li><a href="#assumptions" onclick="closeMenu()">Assumptions</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <div class="link" id="data1" onclick="topFunction()" id="myBtn"><i class="material-icons">description</i>Data<i class="fa fa-chevron-down"></i></div>
+                    <ul class="submenu">
+                      <li><a href="#variables" onclick="closeMenu()">Variables</a></li>
+                      <li><a href="#integrity" onclick="closeMenu()">Integrity</a></li>
+                      <li><a href="#outliers" onclick="closeMenu()">Outliers</a></li>
+                      <li><a href="#security" onclick="closeMenu()">Security</a></li>
+                      <li><a href="#ethics" onclick="closeMenu()">Ethics/Legality</a></li>
+                      <li><a href="#source" onclick="closeMenu()">Source</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <div class="link" id="collection1" onclick="topFunction()" id="myBtn"><i class="material-icons">import_export</i>Data Collection<i class="fa fa-chevron-down"></i></div>
+                    <ul class="submenu">
+                      <li><a href="#methodology" onclick="closeMenu()">Methodology</a></li>
+                      <li><a href="#manipulation" onclick="closeMenu()">Manipulation</a></li>
+                      <li><a href="#table" onclick="closeMenu()">Data Table</a></li>
+                      <li><a href="#management" onclick="closeMenu()">File Management</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <div class="link" id="preparation1" onclick="topFunction()" id="myBtn"><i class="material-icons">storage</i>Data Preparation<i class="fa fa-chevron-down"></i></div>
+                    <ul class="submenu">
+                      <li><a href="#cleansing" onclick="closeMenu()">Data Cleansing</a></li>
+                      <li><a href="#raw" onclick="closeMenu()">Raw Analysis</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <div class="link" id="analysis1" onclick="topFunction()" id="myBtn"><i class="material-icons">insert_chart</i>Background Detailed Analysis<i class="fa fa-chevron-down"></i></div>
+                    <ul class="submenu">
+                      <li><a href="#sleep" onclick="closeMenu()">Sleep Comparison</a></li>
+                      <li><a href="#gender" onclick="closeMenu()">Gender Impact</a></li>
+                      <li><a href="#age" onclick="closeMenu()">Age Impact</a></li>
+                      <li><a href="#Fgender" onclick="closeMenu()">Feelings Vs Gender</a></li>
+                      <li><a href="#Fage" onclick="closeMenu()">Feelings Vs Age</a></li>
+                      <li><a href="#concerns" onclick="closeMenu()">Demographic Concerns</a></li>
+                      <li><a href="#implications" onclick="closeMenu()">Concern Implications</a></li>            
+                    </ul>
+                  </li>
+                          <li>
+                    <div class="link" id="processed1" onclick="topFunction()" id="myBtn"><i class="material-icons">notes</i>Processed Concluding Analysis<i class="fa fa-chevron-down"></i></div>
+                    <ul class="submenu">
+                      <li><a href="#averaging" onclick="closeMenu()">Data Averaging</a></li>
+                      <li><a href="#comparison" onclick="closeMenu()">Concluding Comparison</a></li>
+                      <li><a href="#approximation" onclick="closeMenu()">Approximation Calculations</a></li>        
+                    </ul>
+                  </li>
+                  <li>
+                    <div class="link" id="closure1" onclick="topFunction()" id="myBtn"><i class="material-icons">person</i>Closure<i class="fa fa-chevron-down"></i></div>
+                    <ul class="submenu">
+                      <li><a href="#conclusion" onclick="closeMenu()">Conclusion</a></li>
+                      <li><a href="#bibliography" onclick="closeMenu()">Bibliography</a></li>
+                    </ul>
+                  </li>
+                  
+                  
+                </ul>
+          </ul>
+        </div>
+      </nav>
 <!-- Container the core elements -->
 <div class="container">
+        <a onclick="topFunction()" style="cursor: pointer;" id="return-to-top"><i class="fas fa-chevron-up"></i></a>
         <!-- Logo in top left corner -->
-        <div class="top-gradient" class="item" data-link="/"><img src="Images/Logo1.jpg" class="logo" alt="Logo"></div>
+        <div class="top-gradient" id="navbar" class="item" data-link="/"><img src="Images/Logo1.jpg" class="logo" alt="Logo"></div>
         <!-- Main heading -->
         <div class="top-gradient" class="item" data-link="/" id="title">BLUE LIGHT EXPOSURE VS SLEEP STUDY</div>
         <div class="item">
@@ -40,7 +150,7 @@
         <li>
           <div class="link" id="planning" onclick="topFunction()" id="myBtn"><i class="material-icons">calendar_today</i>Planning<i class="fa fa-chevron-down"></i></div>
           <ul class="submenu">
-            <li><a href="#initial" id="bell">Initial Gantt Chart</a></li>
+            <li><a href="#initial">Initial Gantt Chart</a></li>
             <li><a href="#revised">Revised Gantt Chart</a></li>
           </ul>
         </li>
@@ -114,17 +224,12 @@
       </ul>
     </div>
         </div>
-        <div class="item" id="content"></div>
+        <div class="item" id="content"></div>    
 </div>
 
 <!-- Footer -->
  <div id="footer" onload="startHome()">
-    <p style="text-align:left; padding: 5px; margin-left: 10px;">
-            VCE Informatics
-        <span style="float:right; margin-left: 10px;">
-                Copyright © 2019 Dennis Navamani. All Rights Reserved.
-        </span>
-    </p>
+    <span class="right">Copyright © 2019 Dennis Navamani. All Rights Reserved.</span><span class="left">VCE Informatics</span>​
  </div>
 
  

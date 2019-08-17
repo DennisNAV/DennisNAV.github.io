@@ -70,3 +70,13 @@ tr:nth-child(odd) {background-color: #f2f2f210;}
     padding-bottom: 2%;
     text-align: center;
 }
+
+.collectionTable {
+    width: 20%; text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+.collectionTable {
+    width: 80%;
+  }
+}
