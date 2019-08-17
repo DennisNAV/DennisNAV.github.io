@@ -35,7 +35,6 @@ html {
 }
 
 .item {
-    /* background-color: #ebebeb; */
     font-size: 30px;
     padding: 10px;
     text-align: center;
@@ -72,11 +71,6 @@ html {
     color: #b63b4d;
     text-decoration: none;
   }
-  
-  /** =======================
-   * Contenedor Principal
-   ===========================*/
-  
   
   h1 {
     color: #FFF;
@@ -160,13 +154,7 @@ html {
   
   .active {
     background-color: gray;
-}
-
-  /**
-   * Submenu
-   -----------------------------*/
-  
-  
+}  
   .submenu {
     display: none;
     background: #444359;
@@ -219,7 +207,7 @@ html {
     position: relative;
     text-align: center;
   }
-  /* Baloo|Open+Sans|Josefin+Sans|Raleway|Lexend+Deca|Montserrat:400,900 */
+
   #main-heading {
     font-family: 'Baloo', sans-serif;
     color: rgb(255, 255, 255);
@@ -233,22 +221,11 @@ html {
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -120%); */
   }
   
   #main-text {
     font-family: 'Josefin Sans';
     padding: 20px;
-    /* position: absolute;
-    width: 90%;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); */
   }
 
   .btn-hover {
@@ -265,13 +242,6 @@ html {
     text-align:center;
     border: none;
     background-size: 300% 100%;
-    /* position: absolute;
-    width: 30%;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, 50%); */
-  
     border-radius: 10px;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
@@ -309,8 +279,6 @@ html {
     margin-left: auto;
     margin-right: auto;
   }
-  /* =Baloo|Open+Sans|Josefin+Sans|Raleway|Lexend+Deca|Montserrat */
-
 
 .btn-hover:hover {
   background-position: 100% 0;
@@ -323,53 +291,13 @@ html {
   outline: none;
 }
 
-/* .btn-hover.color-1 {
-  background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
-  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
-}
-.btn-hover.color-2 {
-  background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
-  box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
-} */
 .btn-hover.color-3 {
   background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
   box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
 }
-/* .btn-hover.color-4 {
-  background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
-  box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
-}
-.btn-hover.color-5 {
-  background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
-  box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
-}
-.btn-hover.color-6 {
-  background-image: linear-gradient(to right, #009245, #FCEE21, #00A8C5, #D9E021);
-  box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
-}
-.btn-hover.color-7 {
-  background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
-  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
-}
-.btn-hover.color-8 {
-  background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
-  box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
-}
-.btn-hover.color-9 {
-  background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
-  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
-}
-.btn-hover.color-10 {
-      background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a , #FBB03B);
-  box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
-}
-.btn-hover.color-11 {
-     background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);  box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
-} */
-
 #return-to-top {
   position: fixed;
-  bottom: 20px;
+  bottom: 40px;
   right: 20px;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.7);
